@@ -4,7 +4,7 @@
 }
 
 .cabecalho{
-    background-color: #f2d7f9;
+    background-color: #F9EBEB;
     color: #000;
     display: flex;
     justify-content: space-around;
@@ -26,4 +26,91 @@
     padding: 0 24px; 
     margin-top: 40px;
     font-size: 20px;
+
+}
+/* inicio turma*/
+.turma{
+    background-image: linear-gradient(#F9EBEB,#fbf7f7);
+    font-size: 25PX;
+    padding: 24PX 0;
+    display: flex;
+    justify-content: center;
+}
+
+.turma-titulo{
+    padding: 24px 0; 
+    margin: 0 40px;
+    font-family: 'Inter';
+    font-size: 30px;
+}
+p{
+    padding: 14px 0; 
+    font-family: 'Inter';
+    font-size: 30px;   
+ }
+
+.turma-div-conteudo{
+    width: 50%;
+}
+
+.turma-imagem{
+    width: 400px;
+    padding: 24px 60PX; 
+}
+
+/* inicio aluno*/
+
+.aluno{
+    background-color: #fcf9f9;
+}
+.aluno-titulo{
+    padding: 24px 0;
+}
+
+.aluno-imagem{
+/* imagem estudante 2 1 */
+    width: 120px;
+}
+
+.aluno-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+.aluno-todos{
+    /* especificar o espaçamento do grid(organizar por colunas) */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+}
+
+.aluno-div{
+    /* centralizar a imagem e conteúdo da imagem */
+    text-align: center;
+    padding: 16px 0;
+}
+
+.aluno-titulo{
+    /* centralizar o titulo */
+    text-align: left;
+    /* alinhar o espaçamento */
+    padding: 24px 0;
+    margin: 0 60px;
+}
+
+p{
+   /* centralizar o titulo */
+   text-align: left;
+   /* alinhar o espaçamento */
+   margin: 0 60px; 
+}
+
+
+.rodape{
+    background-image: linear-gradient(#fcf9f9,#F9DEDE);
+}
+
+.copyright{
+        text-align: center;
+        height: 100px;
+        line-height: 100px;   
+        font-size: 15px;      
 }
